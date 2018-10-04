@@ -9,27 +9,27 @@ p=input("enter 'k' for rock,'a' for paper,'s' for scissor")
 if(p=='k'):
 	if(r==2):
 		print("c wins")
-		s1=1
+		print("c score is",1)
 	else:
 		if(r==3):
 			print("p wins")
-			s2=1
+			print("p score is",1)
 elif(p=='a'):
 	if(r==1):
 		print("p wins")
-		s2=2
+		print("p score is",2)
 	else:
 		if(r==3):
 			print("c wins")
-			s1=2
+			print("c score is",2)
 elif(p=='s'):
 	if(r==1):
 		print("c wins")
-		s1=3
+		print("c score is",3)
 	else:
 		if(r==2):
 			print("p wins")
-			s2=3
+			print("p score is",3)
 
 	if(s1==3):
 		print("computer wins")
