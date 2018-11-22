@@ -1,0 +1,33 @@
+syed afshana
+dl-2
+('syed afshana', 'dl-2')
+dl223@soetcse:~/sython$ python3 class.py
+syed afshana
+dl-2
+syed afshana
+dl-2
+dl223@soetcse:~/sython$ cat > dl2.txt
+hello
+good morningdl223@soetcse:~/sython$ cat  dl2.txt
+hello
+good morningdl223@soetcse:~/sython$ python fileopt.py
+
+Command 'python' not found, but can be installed with:
+
+apt install python3       
+apt install python        
+apt install python-minimal
+
+Ask your administrator to install one of them.
+
+You also have python3 installed, you can run 'python3' instead.
+
+dl223@soetcse:~/sython$ python3 fileopt.py
+hello
+good morning
+dl223@soetcse:~/sython$ python3 fileappend.py
+hello
+good morningpython programming
+dl223@soetcse:~/sython$ python3 filewrite.py
+bye
+dl223@soetcse:~/sython$ 
